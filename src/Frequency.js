@@ -1,13 +1,12 @@
 import React, { Component } from 'react'
 import axios from 'axios'
 import Count from './Count'
-// import ClassFreq from './ClassFreq'
 class Frequency extends Component {
   constructor(props) {
     super(props)
     this.inputRef = React.createRef()
      this.state = {
-        sentence:'Vivek is my name',
+        sentence:'Please connect to internet first',
        n: 5,
       render: false 
     }
