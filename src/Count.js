@@ -26,7 +26,6 @@ function Count({ sentence, n })//Destructuring recieved props
    //Printing all frequencies in alphabetical order
   console.log(typeof noOfCountsOfEachCharacter)
   for (counter = 0; counter < n; ++counter){
-    // var sortChar = lowerAlph[counter];
     document.write("<tr><td>" + result[counter] + "</td>")
     document.write("<td>" +noOfCountsOfEachCharacter[result[counter] ]+ "</td></tr>")
   }
